@@ -10,6 +10,11 @@ export class ThankyouComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    console.log("HI")
+    console.log(localStorage.getItem("name"))
+    console.log(localStorage.getItem("email"))
+    console.log(localStorage.getItem("phone"))
   }
 
 }
