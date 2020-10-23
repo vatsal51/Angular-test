@@ -1,50 +1,50 @@
 .content {
-    text-align: center;
-    .brand {
-      font-size: 25px;
-      font-weight: bold;
-      color: midnightblue;
-      margin: 0 0 30px;
-      span {
-        color: red;
-      }
-    }
-    h2 {
-      font-size: 50px;
-      font-weight: bold;
+  text-align: center;
+  .brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: midnightblue;
+    margin: 0 0 30px;
+    span {
       color: red;
     }
-    p {
-      margin: 20px 0 0;
-      color: grey;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+  }
+  p {
+    margin: 20px 0 0;
+    color: grey;
+  }
+  ul {
+    display: inline-flex;
+    flex-direction: column;
+    li {
+      list-style-type: none;
     }
-    ul {
-      display: inline-flex;
-      flex-direction: column;
-      li {
-        list-style-type: none;
+    a {
+      display: inline-block;
+      padding: 10px;
+      margin-top: 30px;
+      border: 2px red solid;
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        background: red;
+        color: white;
       }
-      a {
-        display: inline-block;
-        padding: 10px;
-        margin-top: 30px;
-        border: 2px red solid;
-        color: red;
-        text-decoration: none;
-        font-weight: bold;
-        &:hover {
-          background: red;
-          color: white;
-        }
-      }
-      #disableClick {
-        color: lightgrey;
-        border: none;
-        margin-top: 20px;
-        &:hover {
-          color: red;
-        }
+    }
+    #disableClick {
+      color: lightgrey;
+      border: none;
+      margin-top: 20px;
+      &:hover {
+        color: white;
+        background: red;
       }
     }
   }
-  
+}

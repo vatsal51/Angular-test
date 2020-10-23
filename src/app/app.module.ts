@@ -6,6 +6,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ThankyouComponent } from './thankyou/thankyou.component';
     ThankyouComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
