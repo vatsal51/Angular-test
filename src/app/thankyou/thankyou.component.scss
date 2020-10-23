@@ -1,5 +1,6 @@
 .container {
     flex-direction: column;
+    
     .brand {
       font-size: 36px;
       font-weight: bold;
@@ -19,6 +20,7 @@
     p:nth-child(4) {
       font-size: 20px;
       margin: 40px 0 0;
+      color: gray;
     }
   }
   

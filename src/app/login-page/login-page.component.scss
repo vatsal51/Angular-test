@@ -7,7 +7,7 @@
 }
 .content {
   text-align: center;
-
+  color: gray;
   .forms {
     border-top: 1px lightgrey solid;
     margin: 30px auto;
@@ -37,9 +37,12 @@
     .group {
       position: relative;
       margin-top: 1.875rem;
-
+      color: gray;
       padding-left: 50px;
       padding-right: 50px;
+      @media only screen and(max-width:480px) {
+        padding: 0 20px;
+      }
 
       .group-input {
         padding: 8px;
@@ -62,9 +65,9 @@
         width: 100%;
         display: block;
         font-weight: 500;
-        color: grey;
         background: #fff;
         font-size: 12px;
+        padding: 0 0 5px;
       }
     }
   }
