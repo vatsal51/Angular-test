@@ -7,8 +7,8 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
-const routes:Routes =[{
-
+const routes:Routes =[
+{
   path: '' , redirectTo: '/welcome', pathMatch: 'full' 
   //default :welcome page
   //eg: http://localhost:4200/ will open welcome page
