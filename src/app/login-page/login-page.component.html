@@ -1,1 +1,44 @@
-<p>login-page works!</p>
+
+
+<!-- <p>login-page works!</p> -->
+<div class="container">
+  <div class="content">
+    <p id="brand">Q</p>
+    <p>
+      Please confirm or edit your contact information, so that we can notify you
+      when you are approved for our BETA.
+    </p>
+    <div class="forms">
+      <form>
+        <div class="group">
+          <label class="formLabels">NAME</label>
+          <input
+            type="text"
+            name="name"
+            class="group-input"
+            readonly
+            formControlName="name"
+          />
+        </div>
+
+        <div class="group">
+          <label class="formLabels">EMAIL ADDRESS</label>
+          <input
+            type="email"
+            name="email"
+            class="group-input"
+            readonly
+            formControlName="email"
+          />
+        </div>
+
+        <div class="group">
+          <label class="formLabels">PHONE NUMBER</label>
+          <input type="tel" class="group-input" name="phone" />
+        </div>
+        <div class="border-wrapper"></div>
+        <button type="submit">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+</div>

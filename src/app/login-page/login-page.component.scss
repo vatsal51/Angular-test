@@ -1,0 +1,71 @@
+#brand {
+  color: red;
+  font-size: 36px;
+  font-family: "SF";
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content {
+  text-align: center;
+
+  .forms {
+    border-top: 1px lightgrey solid;
+    margin: 30px auto;
+    padding: 20px 0;
+
+    .border-wrapper {
+      border-bottom: 1px solid lightgray;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    button {
+      max-width: 100%;
+      color: red;
+      padding: 12px 64px;
+      border: 2px solid red;
+      font-size: 18px;
+      font-weight: bold;
+      background: #fff;
+      transition: 0.3s all ease-in-out;
+      cursor: pointer;
+      -webkit-appearance: none;
+      &:hover {
+        background: red;
+        color: white;
+      }
+    }
+    .group {
+      position: relative;
+      margin-top: 1.875rem;
+
+      padding-left: 50px;
+      padding-right: 50px;
+
+      .group-input {
+        padding: 8px;
+        border-radius: 2px;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0);
+        font-size: 1rem;
+        &:read-only {
+          background-color: darkslategrey;
+          color: white;
+          pointer-events: none;
+        }
+      }
+
+      .formLabels {
+        text-align: left;
+        width: 100%;
+        display: block;
+        font-weight: 500;
+        color: grey;
+        background: #fff;
+        font-size: 12px;
+      }
+    }
+  }
+}
